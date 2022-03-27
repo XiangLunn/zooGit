@@ -1,0 +1,25 @@
+#Content #title {
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+    font: 2.4vw "微软雅黑",Serif;
+    color: white;
+    font-weight: bold;
+}
+#Content #source {
+    margin: 0 auto 20px;
+    padding: 9px;
+    text-align: center;
+    color: #b9b5a1;
+    font-size: 0.8vw;
+    border-style: solid none solid none;
+    border-width: 1px;
+    border-color: #b9b5a1;
+}
+#Content #text p {
+    text-indent: 30px;
+    color: white;
+    font-family: "方正粗黑宋简体", serif;
+    letter-spacing: 2px;
+    line-height: 1.7;
+}

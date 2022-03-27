@@ -1,0 +1,19 @@
+#NavBar {
+    outline: groove 18px #3f1b02;
+    float: right;
+    font: 1.4vw "华文琥珀",Serif;
+    color: #bdc7b8;
+    text-align: center;
+}
+#NavBar ul {list-style-type: none;}
+#NavBar li {
+    padding: 12px 14px;
+
+}
+#Content {
+    margin-top: 40px;
+    margin-left: 40px;
+    width: 790px;
+    float: left;
+    margin-bottom: 80px;
+}

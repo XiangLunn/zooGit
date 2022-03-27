@@ -1,0 +1,8 @@
+#Content ul {list-style-type: square;}
+#Content li {
+    font: 20px "华文隶书",serif;
+    color: #d4d2c3;
+    border-bottom: 2px #757365 dashed;
+    padding-top: 16px;
+}
+#Content li span {float: right}

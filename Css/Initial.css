@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+a:hover,a:link,a:visited,a:active {
+    text-decoration: none;
+    color: #bdc7b8;
+}
+#titleConstruct {
+    background: url("../Img/title.jpg") -400px;
+    margin: 0 auto;
+    height: 120px;
+}
+#titleConstruct p {
+    text-align: center;
+    padding-top: 13px;
+    font: 5vw "华文彩云",Serif;
+    color: white;
+}
+#Navigation_bar {
+    height: 50px;
+    width: 97.9%;
+    margin: 0 auto;
+    text-align: center;
+    background: url("../Img/title.jpg") -400px;
+    outline: groove 18px #3f1b02;
+    position: sticky;
+    top: 17px;
+    z-index: 1;
+}
+#Navigation_bar li {
+    display: inline-block;
+    text-decoration: none;
+    padding: 15px 15px;
+    font: 1.4vw "华文琥珀",Serif;
+    color: #bdc7b8;
+}
+#bodyConstruct {
+    border: 1px solid brown;
+    background: url("../Img/body.jpg") -700px;
+}
+#Body {
+    margin: 40px auto 100px;
+    background: url("../Img/title.jpg") -400px;
+    width: 1000px;
+    overflow: auto;
+    outline: groove 18px #3f1b02;
+}

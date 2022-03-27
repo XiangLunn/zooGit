@@ -1,0 +1,129 @@
+#left {
+    margin: 10px 5px 10px 10px;
+    width: 780px;
+    float: left;
+}
+#right {
+    margin: 10px 10px 10px 5px;
+    width: 185px;
+    float: left;
+}
+#left,#right {
+    height: 800px;
+}
+#rotation {
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    outline: solid 3px #3f1b02;
+    float: left;
+}
+#rotation #Hidden {
+    height: 100%;
+    width: 3900px;
+    display: flex;
+    position: relative;
+    animation-name: example;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+    z-index: 0;
+}
+@keyframes example {
+    0% {top: 0;left: 0}
+    23% {top: 0;left: 0}
+    25% {top: 0;left: -780px}
+    48% {top: 0;left: -780px}
+    50% {top: 0;left: -1560px}
+    73% {top: 0;left: -1560px}
+    75% {top: 0;left: -2340px}
+    98% {top: 0;left: -2340px}
+    100% {top: 0;left: -3120px}
+}
+.play {
+    width: 780px;
+    height: 100%;
+    background-size: cover;
+    background-image: url("../Img/play/play_1 (1).jpg");
+}
+#play_2 {background-image: url("../Img/play/play_1 (2).jpg");}
+#play_3 {background-image: url("../Img/play/play_1 (3).jpg");}
+#play_4 {background-image: url("../Img/play/play_1 (4).jpg");}
+.news {
+    margin-top: 30px;
+    width: 380px;
+    float: left;
+    outline: inset 6px #3f1b02;
+}
+.news ul {
+    margin-left: 20px;
+    padding-top: 10px;
+    font: 1.8vw "华文隶书",Serif;
+    font-weight: bold;
+    color: white;
+}
+.news li {
+    padding-top: 8px;
+    font: 20px "华文隶书",serif;
+    list-style-type: square;
+    color: #bdc7b8;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+#openTime {
+    width: 100%;
+    outline: inset 6px #3f1b02;
+}
+#openTime ul {
+    margin-left: 20px;
+    padding-top: 10px;
+    font: 1.6vw "华文隶书",Serif;
+    font-weight: bold;
+    color: white;
+}
+#openTime li {
+    padding-top: 8px;
+    font: 19px "华文隶书",serif;
+    list-style-type: none;
+    color: #c4c36b;
+}
+#ticketSale {
+    margin-top: 30px;
+    width: 100%;
+    outline: inset 6px #3f1b02;
+}
+#ticketSale ul {
+    margin-left: 20px;
+    padding-top: 10px;
+    font: 1.6vw "华文隶书",Serif;
+    font-weight: bold;
+    color: white;
+}
+#ticketSale li {
+    padding-top: 8px;
+    font: 19px "华文隶书",serif;
+    list-style-type: none;
+    color: #c4c36b;
+}
+#logo {
+    margin-top: 15px;
+    height: 250px;
+    width: 100%;
+    background-image: url("../Img/logo.jpg");
+    background-size: cover;
+}
+#welcome {
+    float: left;
+    width: 100%;
+    margin-bottom: 80px;
+}
+#welcome div {
+    margin: 60px auto 0;
+    padding: 20px 30px;
+    font: 2.5vw "华文琥珀",Serif;
+    color: #bdc7b8;
+    width: 850px;
+    text-align: center;
+    outline: outset 18px #3f1b02;
+}

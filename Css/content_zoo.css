@@ -1,0 +1,15 @@
+#zoo {
+    float: left;
+    width: 100%;
+    height: 289px;
+}
+#zoo a {
+    float: left;
+    display: block;
+    padding: 20px;
+    margin: 20px;
+    width: 170px;
+    height: 5px;
+    font: 1.8vw "华文隶书",Serif;
+    color: #d4d2c3;
+}
